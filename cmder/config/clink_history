@@ -6,7 +6,7 @@ php -v
 |d..
 mkdir projetos
 |s
-cd projetos
+|d projetos
 nautiilus
 |ano helloworld.php
 |s
@@ -49,11 +49,11 @@ node@latest -g
 npm -v
 npm@latest -g
 |s
-cd..
-ls
-cd projetos\
+|d..
+|s
+|d projetos\
 mkdir aulass
-cd aulass\
+|d aulass\
 mkdir aula2
 cd aula2\
 touch aula.php
@@ -89,4 +89,40 @@ code .
 |hp aula.php 
 |hp aula.php 
 |hp aula.php 
+|hp aula.php 
+|d..
+cd projetos
+ced aulass\
+|d aulass\
+cd aula-dia3\
+|ode
+ls
+cd
+|d..
+cd projetos\
+cd aulass\
+cd..
+code
+cd aulass\aula-dia3\
+|hp aula.php 
+|hp aula.php 
+|hp aula.php 
+|hp aula.php 
+|at he4rt.txt 
+|at he4rt.txt 
+|hp aula.php 
+|hp aula.php 
+cat he4rt.txt 
+cat pessoas.txt 
+|hp aula.php
+|hp aula.php 
+|hp aula.php 
+|hp aula.php 
+|hp aula.php 
 php aula.php 
+|hp aula.php
+|hp aula.php
+|hp aula.php
+|hp aula.php
+|hp aula.php
+php aula.php

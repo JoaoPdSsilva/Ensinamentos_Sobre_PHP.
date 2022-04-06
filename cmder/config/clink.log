@@ -1,85 +1,69 @@
-0f4c start_logger              154 ---- 2022/03/23 18:44:07.263 -------------------------------------------------
-0f4c start_logger              160 Host process is 'cmd.exe' (pid 3916)
-0f4c start_logger              164 DLL path is 'C:\dev\cmder\vendor\clink'
-0f4c start_logger              178 Windows version 10.0.19044 (x64)
-0f4c start_logger              181 Clink version 1.2.46.69fc92 (x64)
-0f4c hook_setter::hook_setter  156 >>> Started hook transaction.
-0f4c hook_setter::attach_iat   313 Attempting to hook SetEnvironmentVariableW in IAT for module 00007FF63FBA0000.
-0f4c pe_info::iterate_imports  160 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
-0f4c find_iat                  121 Found import at 00007FF63FBD3860 (value is 00007FFA47DCC490).
-0f4c hook_setter::attach_iat   313 Attempting to hook WriteConsoleW in IAT for module 00007FF63FBA0000.
-0f4c pe_info::iterate_imports  160 Found import in 'api-ms-win-core-console-l1-1-0.dll'
-0f4c find_iat                  121 Found import at 00007FF63FBD34F8 (value is 00007FFA47D715C0).
-0f4c hook_setter::attach_iat   313 Attempting to hook GetEnvironmentVariableW in IAT for module 00007FF63FBA0000.
-0f4c pe_info::iterate_imports  160 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
-0f4c find_iat                  121 Found import at 00007FF63FBD3880 (value is 00007FFA47D8AB60).
-0f4c hook_setter::commit       204 <<< Hook transaction committed.
-0f4c hook_setter::hook_setter  156 >>> Started hook transaction.
-0f4c hook_setter::detach_iat   356 Attempting to unhook 00007FFA18BAADF0 from GetEnvironmentVariableW in IAT for module 00007FF63FBA0000.
-0f4c pe_info::iterate_imports  160 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
-0f4c find_iat                  121 Found import at 00007FF63FBD3880 (value is 00007FFA18BAADF0).
-0f4c hook_setter::commit       204 <<< Hook transaction committed.
-0f4c hook_setter::hook_setter  156 >>> Started hook transaction.
-0f4c hook_setter::attach_iat   313 Attempting to hook ReadConsoleW in IAT for module 00007FF63FBA0000.
-0f4c pe_info::iterate_imports  160 Found import in 'api-ms-win-core-console-l1-1-0.dll'
-0f4c find_iat                  121 Found import at 00007FF63FBD34E0 (value is 00007FFA47E5E510).
-0f4c hook_setter::commit       204 <<< Hook transaction committed.
-0f4c reset_handle              145 resetting mismatched stdin handle
-0f4c reset_handle              145 resetting mismatched stdout handle
-0f4c win_screen_buffer::begin  227 Using native terminal support; found 'ConEmuHk64.dll'.
-0f4c history_db::initialise   1268 master bank ctag: |CTAG_1647468008_30016859_13756_0
-0f4c history_db::compact      1492 History:  22 active, 27 deleted
-0f4c history_db::compact      1492 History:  22 active, 28 deleted
-0f4c reset_handle              145 resetting mismatched stdout handle
-0f4c history_db::compact      1492 History:  22 active, 29 deleted
-0f4c history_db::compact      1492 History:  22 active, 30 deleted
-0f4c reset_handle              145 resetting mismatched stdout handle
-0f4c history_db::compact      1492 History:  22 active, 31 deleted
-0f4c history_db::compact      1492 History:  23 active, 31 deleted
-0f4c history_db::compact      1492 History:  24 active, 31 deleted
-0f4c reset_handle              145 resetting mismatched stdout handle
-0f4c history_db::compact      1492 History:  25 active, 31 deleted
-0f4c history_db::compact      1492 History:  26 active, 31 deleted
-0f4c history_db::compact      1492 History:  27 active, 31 deleted
-0f4c reset_handle              145 resetting mismatched stdout handle
-0f4c history_db::compact      1492 History:  28 active, 31 deleted
-0f4c history_db::compact      1492 History:  29 active, 31 deleted
-0f4c history_db::compact      1492 History:  30 active, 31 deleted
-0f4c history_db::compact      1492 History:  31 active, 31 deleted
-0f4c reset_handle              145 resetting mismatched stdout handle
-0f4c history_db::compact      1492 History:  31 active, 32 deleted
-0f4c history_db::compact      1492 History:  31 active, 33 deleted
-0f4c history_db::compact      1492 History:  31 active, 34 deleted
-0f4c history_db::compact      1492 History:  31 active, 35 deleted
-0f4c history_db::compact      1492 History:  31 active, 36 deleted
-0f4c history_db::compact      1492 History:  31 active, 37 deleted
-0f4c reset_handle              145 resetting mismatched stdout handle
-0f4c history_db::compact      1492 History:  31 active, 38 deleted
-0f4c reset_handle              145 resetting mismatched stdout handle
-0f4c history_db::compact      1492 History:  31 active, 39 deleted
-0f4c history_db::compact      1492 History:  31 active, 40 deleted
-0f4c reset_handle              145 resetting mismatched stdout handle
-0f4c history_db::compact      1492 History:  31 active, 41 deleted
-0f4c history_db::compact      1492 History:  31 active, 42 deleted
-0f4c reset_handle              145 resetting mismatched stdout handle
-0f4c history_db::compact      1492 History:  31 active, 43 deleted
-0f4c history_db::compact      1492 History:  31 active, 44 deleted
-0f4c history_db::compact      1492 History:  31 active, 45 deleted
-0f4c history_db::compact      1492 History:  31 active, 46 deleted
-0f4c history_db::compact      1492 History:  31 active, 47 deleted
-0f4c history_db::compact      1492 History:  31 active, 48 deleted
-0f4c reset_handle              145 resetting mismatched stdout handle
-0f4c history_db::compact      1492 History:  31 active, 49 deleted
-0f4c history_db::compact      1492 History:  31 active, 50 deleted
-0f4c history_db::compact      1492 History:  31 active, 51 deleted
-0f4c history_db::compact      1492 History:  31 active, 52 deleted
-0f4c history_db::compact      1492 History:  31 active, 53 deleted
-0f4c history_db::compact      1492 History:  31 active, 54 deleted
-0f4c reset_handle              145 resetting mismatched stdout handle
-0f4c reset_handle              145 resetting mismatched stderr handle
-0f4c history_db::compact      1492 History:  31 active, 55 deleted
-0f4c history_db::compact      1492 History:  31 active, 56 deleted
-0f4c history_db::compact      1492 History:  31 active, 57 deleted
-0f4c history_db::compact      1492 History:  31 active, 58 deleted
-0f4c history_db::compact      1492 History:  31 active, 59 deleted
-0f4c history_db::compact      1492 History:  31 active, 60 deleted
+06fc start_logger              154 ---- 2022/04/06 18:35:22.447 -------------------------------------------------
+06fc start_logger              160 Host process is 'cmd.exe' (pid 1788)
+06fc start_logger              164 DLL path is 'C:\dev\cmder\vendor\clink'
+06fc start_logger              178 Windows version 10.0.19044 (x64)
+06fc start_logger              181 Clink version 1.2.46.69fc92 (x64)
+06fc hook_setter::hook_setter  156 >>> Started hook transaction.
+06fc hook_setter::attach_iat   313 Attempting to hook SetEnvironmentVariableW in IAT for module 00007FF6195E0000.
+06fc pe_info::iterate_imports  160 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+06fc find_iat                  121 Found import at 00007FF619613860 (value is 00007FF90843C490).
+06fc hook_setter::attach_iat   313 Attempting to hook WriteConsoleW in IAT for module 00007FF6195E0000.
+06fc pe_info::iterate_imports  160 Found import in 'api-ms-win-core-console-l1-1-0.dll'
+06fc find_iat                  121 Found import at 00007FF6196134F8 (value is 00007FF9083E15C0).
+06fc hook_setter::attach_iat   313 Attempting to hook GetEnvironmentVariableW in IAT for module 00007FF6195E0000.
+06fc pe_info::iterate_imports  160 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+06fc find_iat                  121 Found import at 00007FF619613880 (value is 00007FF9083FAB60).
+06fc hook_setter::commit       204 <<< Hook transaction committed.
+06fc hook_setter::hook_setter  156 >>> Started hook transaction.
+06fc hook_setter::detach_iat   356 Attempting to unhook 00007FF8CB87ADF0 from GetEnvironmentVariableW in IAT for module 00007FF6195E0000.
+06fc pe_info::iterate_imports  160 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+06fc find_iat                  121 Found import at 00007FF619613880 (value is 00007FF8CB87ADF0).
+06fc hook_setter::commit       204 <<< Hook transaction committed.
+06fc hook_setter::hook_setter  156 >>> Started hook transaction.
+06fc hook_setter::attach_iat   313 Attempting to hook ReadConsoleW in IAT for module 00007FF6195E0000.
+06fc pe_info::iterate_imports  160 Found import in 'api-ms-win-core-console-l1-1-0.dll'
+06fc find_iat                  121 Found import at 00007FF6196134E0 (value is 00007FF9084CE510).
+06fc hook_setter::commit       204 <<< Hook transaction committed.
+06fc win_screen_buffer::begin  227 Using native terminal support; found 'ConEmuHk64.dll'.
+06fc reset_handle              145 resetting mismatched stdout handle
+06fc history_db::initialise   1268 master bank ctag: |CTAG_1647468008_30016859_13756_0
+06fc history_db::compact      1492 History:  34 active, 64 deleted
+06fc reset_handle              145 resetting mismatched stdout handle
+06fc history_db::compact      1492 History:  35 active, 64 deleted
+06fc history_db::compact      1492 History:  35 active, 65 deleted
+06fc history_db::compact      1492 History:  35 active, 66 deleted
+06fc reset_handle              145 resetting mismatched stdout handle
+06fc history_db::compact      1492 History:  35 active, 67 deleted
+06fc history_db::compact      1492 History:  35 active, 68 deleted
+06fc history_db::compact      1492 History:  35 active, 69 deleted
+06fc history_db::compact      1492 History:  36 active, 69 deleted
+06fc history_db::compact      1492 History:  36 active, 70 deleted
+06fc history_db::compact      1492 History:  36 active, 71 deleted
+06fc history_db::compact      1492 History:  36 active, 72 deleted
+06fc history_db::compact      1492 History:  36 active, 73 deleted
+06fc reset_handle              145 resetting mismatched stdout handle
+06fc history_db::compact      1492 History:  37 active, 73 deleted
+06fc history_db::compact      1492 History:  37 active, 74 deleted
+06fc history_db::compact      1492 History:  37 active, 75 deleted
+06fc history_db::compact      1492 History:  37 active, 76 deleted
+06fc history_db::compact      1492 History:  37 active, 77 deleted
+06fc reset_handle              145 resetting mismatched stdout handle
+06fc history_db::compact      1492 History:  38 active, 77 deleted
+06fc history_db::compact      1492 History:  39 active, 77 deleted
+06fc history_db::compact      1492 History:  39 active, 78 deleted
+06fc reset_handle              145 resetting mismatched stdout handle
+06fc history_db::compact      1492 History:  39 active, 79 deleted
+06fc history_db::compact      1492 History:  39 active, 80 deleted
+06fc reset_handle              145 resetting mismatched stdout handle
+06fc history_db::compact      1492 History:  39 active, 81 deleted
+06fc history_db::compact      1492 History:  39 active, 82 deleted
+06fc reset_handle              145 resetting mismatched stdout handle
+06fc history_db::compact      1492 History:  39 active, 83 deleted
+06fc history_db::compact      1492 History:  39 active, 84 deleted
+06fc reset_handle              145 resetting mismatched stdout handle
+06fc history_db::compact      1492 History:  39 active, 85 deleted
+06fc history_db::compact      1492 History:  39 active, 86 deleted
+06fc reset_handle              145 resetting mismatched stdout handle
+06fc history_db::compact      1492 History:  39 active, 87 deleted
+06fc reset_handle              145 resetting mismatched stdout handle
+06fc history_db::compact      1492 History:  39 active, 88 deleted
